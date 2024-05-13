@@ -3,10 +3,10 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, WebAppInfo
 from aiogram.utils import executor
 
-TOKEN = '6993661980:AAE9Cy-BNrTL3AsAyuHxL5oKuus-aJcMyc8'
+TOKEN = ''
 
 # Owner ID
-OWNER_ID = 732748499
+OWNER_ID = 
 
 bot = Bot(TOKEN)
 dp = Dispatcher(bot)
@@ -97,3 +97,5 @@ if __name__ == '__main__':
     init_db()  # Инициализация базы данных при старте
     executor.start_polling(dp, skip_updates=True)
 
+6993661980:AAE9Cy-BNrTL3AsAyuHxL5oKuus-aJcMyc8
+732748499
